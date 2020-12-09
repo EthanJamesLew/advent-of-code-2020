@@ -61,7 +61,7 @@ def main():
     assert len(out) == 1
     print(f"The Answer to the Day 1 Sum / Product Puzzle is {reduce(lambda x, y: x * y, out[0], 1)}")
     out = tuple(iterate_prod(input_data, nvals=3))
-    print(f"The Answer to the Day 1 Sum / Product Puzzle is {reduce(lambda x, y: x * y, out[0], 1)}")
+    print(f"The Answer to the Day 1 Part 2 Sum / Product Puzzle is {reduce(lambda x, y: x * y, out[0], 1)}")
 
 
 if __name__ == '__main__':
